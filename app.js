@@ -30,8 +30,10 @@ function themeChanger(){
     document.body.classList.toggle("dark-theme");
     if(check2 % 2 === 0) {
         themeIcon.src = "images/light.png";
+        themeSwitchBtn.style.filter = "invert(0)";
     } else if(check % 2 === 1) {
         themeIcon.src = "images/dark.png";
+        themeSwitchBtn.style.filter = "invert(1)";
     }
     check2++;
 }
