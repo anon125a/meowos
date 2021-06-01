@@ -3,8 +3,6 @@ const nav = document.getElementById("ul");
 const themeSwitchBtn = document.getElementById("switch");
 const themeIcon = document.getElementById("theme-icon");
 
-window.onresize = displayWindowSize;
-
 let check = 3;
 let check2 = 3;
 

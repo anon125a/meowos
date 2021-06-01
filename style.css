@@ -423,3 +423,165 @@ footer p,.dark-theme footer p{
         "one" "two" "three" "four" "five" "six";
     }
 }
+
+/*---------------Bypass Page----------------------------*/
+
+.details-about-bypass{
+    margin: auto auto;
+    margin-top: 3rem;
+    width: 80%;
+}
+.details-about-bypass h2{
+    font-size: 1.6rem;
+}
+.details-about-bypass p,a{
+    white-space: pre;
+    margin-top: 1rem;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2rem;  
+}
+.bypass-looks{
+    margin: 3rem auto;
+    width: 90%;
+}
+.bypass-image-holder{
+    width: 100%;
+    margin: auto auto;
+    margin-top: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+}
+.bypass-image-holder img{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+
+/*----step section-----*/
+.steps-section{
+    width: 80%;
+    margin: auto auto;
+}
+.steps-section h2,.feedback-section h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto 1rem auto;
+    filter: drop-shadow(.1rem .2rem .4rem rgb(25, 207, 146));
+}
+.steps-section a,.details-about-bypass a,.impthings ul li a{
+    color: rgb(78, 62, 219);
+}
+.steps-section a:hover,.details-about-bypass a:hover{
+    color: hotpink;
+}
+.steps-section li{
+    margin: .5rem auto;
+}
+.steps-section h3{
+    font-size: 1.4rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem auto;
+}
+.dark-theme .steps-section h3{
+    color: rgb(209, 194, 194);
+}
+
+
+/*-------feedback-section------*/
+.feedback-section{
+    width: 100%;
+}
+.feedback-section h2{
+    margin-bottom: 3rem;
+}
+.whole-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.feedback-img{
+    width: 65%;
+    height: 30.5rem;
+    overflow: hidden;
+    margin: auto auto;
+}
+#feed-img{
+    width: 100%;
+    background-size: cover;
+    transition: all 2s ease-in-out;
+}
+.feedback-text{
+    width: 35%;
+}
+.feed-text-holder{
+    width: 90%
+}
+.feed-text-holder p{
+    transition: all 2s ease-in-out;
+}
+#name{
+    text-align: end;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#told{
+    font-style: italic;
+    margin-top: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Oxygen', sans-serif;
+}
+.dark-theme #told,#name{
+    color:rgb(189, 184, 184)
+}
+.image-styling{
+    opacity: 0;
+}
+
+@media (max-width: 680px) {
+    .details-about-bypass p{
+        margin-top: 1rem;
+        white-space: normal;
+    }
+    .details-about-bypass h2{
+        margin: 1rem auto;
+    }
+    .bypass-image-holder{
+        grid-auto-flow: row;
+    }
+    .whole-container{
+        flex-direction: column;
+    }
+    .feedback-sectio{
+        height: 80vh;
+    }
+    .feedback-img{
+        width: 100%;
+        background-image: green;
+        height: auto;
+    }
+    .feedback-text{
+        width: 100%;
+    }
+    #told{
+        margin-top: 6%;
+    }
+ 
+}
+
+
+/*-------------------NEW---------------------*/
+#new{
+    color: cyan;
+    animation: animation 1s 0s ease-in-out infinite alternate;
+}
+
+@keyframes animation{
+    from{color: white;}
+    to{color: cyan; filter: drop-shadow(.2rem .2rem 1.2rem rgb(106, 248, 87))}
+}
