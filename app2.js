@@ -72,6 +72,63 @@ function image4() {
 }
 function image4opacity() {
     feedbackImage.style.opacity = "0";
+   
+    userName.style.opacity = "0";
+    userSaid.style.opacity = "0";
+    
+    setTimeout(image5, 1900);
+}
+function image5() {
+    feedbackImage.style.opacity = "1";
+    feedbackImage.src = "images/feed5.jpg";
+    
+    userSaid.textContent = '"Someone asked for a screenshot yesterday... here, have it"';
+    userName.textContent = "-Sashi";
+    userName.style.opacity = "1";
+    userSaid.style.opacity = "1";
+    
+    setTimeout(image5opacity, 1900);
+}
+function image5opacity() {
+    feedbackImage.style.opacity = "0";
+   
+    userName.style.opacity = "0";
+    userSaid.style.opacity = "0";
+    
+    setTimeout(image6, 1900);
+}
+function image6() {
+    feedbackImage.style.opacity = "1";
+    feedbackImage.src = "images/feed6.jpg";
+    
+    userSaid.textContent = '"meow😃😙😙😙"';
+    userName.textContent = "-Aman";
+    userName.style.opacity = "1";
+    userSaid.style.opacity = "1";
+    
+    setTimeout(image6opacity, 1900);
+}
+function image6opacity() {
+    feedbackImage.style.opacity = "0";
+   
+    userName.style.opacity = "0";
+    userSaid.style.opacity = "0";
+    
+    setTimeout(image7, 1900);
+}
+function image7() {
+    feedbackImage.style.opacity = "1";
+    feedbackImage.src = "images/feed7.jpg";
+    
+    userSaid.textContent = '"thank"';
+    userName.textContent = "-Vvietafk";
+    userName.style.opacity = "1";
+    userSaid.style.opacity = "1";
+    
+    setTimeout(image7opacity, 1900);
+}
+function image7opacity() {
+    feedbackImage.style.opacity = "0";
     
     userName.style.opacity = "0";
     userSaid.style.opacity = "0";
